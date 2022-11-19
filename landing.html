@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="landing.css">
         <script src="https://kit.fontawesome.com/7d2d9d3834.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header id="header">
-            <div>
+            <div class="icon-title">
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img">
-                <h2>Original Trombones</h2>
+                <!-- <h2 class="header-title">Original Trombones</h2> -->
             </div>
             
             <nav id="nav-bar">
-                
-                <ul>
+                <ul class="menu-links">
                     <li> <a href="features">features</a> </li>
                     <li> <a href="Ho">How it works</a> </li>
                     <li> <a href="">Pricing</a> </li>
@@ -22,29 +22,40 @@
         <form>
             <h3> Handcrafted, home-made masterpieces</h3>
             <input type="email" placeholder="Enter your Email address">
-            <button type="submit">GET STARTED</button>
+            
+            <div><button type="submit">GET STARTED</button></div>
             
         </form>
-        <div>
+        <div class="banner">
             
-        <div>
-            <i class='fas fa-fire' style='font-size:48px;color:red'></i>
-            <h4>Premium Materials</h4>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        <div class="icon-description">
+            <i class='fas fa-fire' style='font-size:48px; color:goldenrod'></i>
+            <div class="description">
+                <h4>Premium Materials</h4>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
         </div>
-        <div>
-            <i class='fas fa-truck' style='font-size:48px;color:red'></i>
-            <h4>Fast Shipping</h4>
-            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        <div class="icon-description">
+            <i class='fas fa-truck' style='font-size:48px;color:goldenrod;'></i>
+            <div class="description">
+                <h4>Fast Shipping</h4>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are
+                    not satisfied.</p>
+            </div>
+           
         </div>
-        <div>
-            <i class='fas fa-battery-full' style='font-size:48px;color:red'></i>
+        <div class="icon-description">
+            <i class='fas fa-battery-full' style='font-size:48px;color:goldenrod'></i>
+
+            <div class="description">
             <h4>Quality Assurance</h4>
             <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
         </div>
+        
+        </div>
         </div>
 
-        <div>
+        <div class="video">
             <video width="500px" height="500px" controls="controls"/>
             <source src="https://youtu.be/y8Yv4pnO7qc"  type="video/mp4">
         </video>
@@ -78,7 +89,7 @@
     <button type="submit">SELECT</button>
 </div>
         </div>
-        <div>
+        <div class="footer">
             <h6>Privacy   Terms    Contacts</h6>
             <p>Copyright 2016, Original Trombones</p>
         </div>
